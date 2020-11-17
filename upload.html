@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>upload or search</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="form-box">
+			<form  class="input-group" id="login" action="\upload" method="post" autocomplete="off" enctype="multipart/form-data">
+				<input type="File"  class="file" name="myimage" >
+				<p><i>only jpeg and size<1MB files are accepted</i></p>
+				<button type="submit" class="new">Add file</button>
+			</form>
+			<form  class="input-group" id="login1" action="\search" autocomplete="off" method="post">
+				<input type="text" name="name1" class="input-field" placeholder="eg:image/thumbnail" required>
+				<input type="text" name="name2" class="input-field" placeholder="eg:XResolution/IMagewidth" required>
+				<input type="text" name="prop" class="input-field" placeholder="Answer" required>
+				<button type="submit" class="submit">Search</button>
+			</form>
+			<form id="login2" class="input-group">
+				<button type="button" class="submit" id="ok" onclick="register()">
+					help
+				</button>
+			</form>
+			<form class="input-group" id="register" >
+				<img src="help.png" width="380px" height="300px">
+				<button type="button" class="submit"  onclick="login()">
+						search
+				</button>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var x=document.getElementById("login");
+		var b=document.getElementById("login2");
+		var y=document.getElementById("register");
+		var z=document.getElementById("btn");
+		var a=document.getElementById("login1");
+		function register(){
+			x.style.left ="-400px";
+			a.style.left ="-400px";
+			b.style.left ="-400px";
+			y.style.left ="50px";
+			z.style.left ="100px";
+		}
+		function login(){
+			x.style.left ="50px";
+			a.style.left ="50px";
+			b.style.left ="50px";
+			y.style.left ="450px";
+			z.style.left ="0px";
+		}
+		function move(){
+			document.location.href="upload.html";
+		}
+	</script>
+</body>
+</html>

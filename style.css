@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	height:100%;
+	width: 100%;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+} 
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin:6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9 px #ff61241f;
+	border-radius: 30px;  
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group{
+	top: 100px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit{
+	width: 85%;
+	padding:  10px 10px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border:0;
+	outline: none;
+	border-radius: 30px;
+}
+.checkbox{
+	margin: 30px 10px 30px 0;
+}
+span{
+	color:#777;
+	font-size:12px;
+	bottom: 68px;
+	position: absolute;
+}
+#register{
+	left:450px;
+}
+#login{
+	left: 50px;
+}
+.upload{
+	top:10px;
+	left:0px;
+	width: 3500px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9 px #ff61241f;
+	border-radius: 30px;  
+}
+.search{
+	top: 200px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.new{
+	top:20px;
+	left:125px;
+	width: 100px;
+	cursor: pointer;
+	margin: 35px auto;
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	position: absolute;
+	box-shadow: 0 0 20px 9 px #ff61241f;
+	border-radius: 30px;  
+}
+#ok{
+	width:20%;
+	top:250px;
+	position:relative;
+}
+#ok1{
+	width:20%;
+	top:20px;
+	position:relative;
+}
+#place{
+	top:40px;
+	position: relative;
+}
+#login1{
+	top:200px;
+	position: relative;
+}
+.input-group1{
+	top: 300px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-group2{
+	top: 250px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+#okok{
+	width:50%
+}
+#login2{
+	top:0px;
+	position: relative;
+}
